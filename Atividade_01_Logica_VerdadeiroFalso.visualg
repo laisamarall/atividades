@@ -1,0 +1,34 @@
+algoritmo "Atividade_01_Logica_VerdadeiroFalso_Emilly"
+
+var
+  x, y, z: inteiro
+  ativo: logico
+  resultado: logico
+
+inicio
+  x <- 10
+  y <- 20
+  z <- 10
+  ativo <- verdadeiro
+  
+
+  resultado <- x = z
+  escreval("1. x == z: ", resultado)
+
+  resultado <- x <> y
+  escreval("2. x != y: ", resultado)
+   
+  resultado <- y < x
+  escreval("3. y < x: ", resultado)
+
+  resultado <- x >= z
+  escreval("4. x >= z: ", resultado)
+
+  resultado <- (x < y) e (ativo = verdadeiro)
+  escreval("5. (x < y) E (ativo == verdadeiro): ", resultado)
+   
+
+  resultado <- nao (x = z) 
+  escreval("6. nao (x == z): ", resultado)
+
+fimalgoritmo
